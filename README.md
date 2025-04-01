@@ -1,6 +1,6 @@
 # Open Source Trading Platform
 
-![Project Preview](https://cosmic-figolla-7e162a.netlify.app/)
+![Project Preview](img/back.jpg)
 
 ## 🚀 Overview
 
