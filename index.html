@@ -4,17 +4,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, follow">
   <title>Welcome to open source trading</title>
 
   <!-- css files link -->
   <link rel="stylesheet" href="css/general.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/queries.css">
+
+
   <!-- font family links -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
     rel="stylesheet">
+
+  <!-- javascript links -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
 </head>
 
 <body>
@@ -27,8 +36,8 @@
             <li><a href="#" class="link">Home</a></li>
             <li><a href="#" class="link">Academy</a></li>
             <li><a href="#" class="link">Features</a></li>
-            <li><a href="#" class="link">Blog</a></li>
-            <li><a href="#" class="last-child link">Log in</a></li>
+            <li><a href="blog.html" class="link">Blog</a></li>
+            <li><a href="#" class="last-child link">Sign up</a></li>
           </ul>
         </div>
       </nav>
@@ -36,29 +45,29 @@
 
       <section class="container section">
         <div class="section--1">
-          <h1 class="primary-heading">HEY,<span class="trader">TRADER</span></h1>
-          <h2 class="secondary-heading">Welcome To Open Source Trading Platform</h2>
-          <p class="tertiary-heading">Your Gateway to the Crypto World.....
+          <h1 class="hey">HEY,<span class="trader">TRADER</span></h1>
+          <h2 class="secondary-heading open--source">Welcome To Open Source Trading Platform</h2>
+          <p class="tertiary-heading"><em>Your Gateway to the Crypto World.....</em>
           </p>
         </div>
 
         <div class="section--2">
-          <p class="header-text">Our Solutions For Traders</p>
+          <p class="header-text  secondary-heading">Our Solutions For Traders</p>
           <div class="grid">
             <div class="grid--boxes flex ">
-              <span class="card-header">1</span>
+              <ion-icon name="shield-checkmark-outline" class="card-header"></ion-icon>
               <p class="card--text">Buy, sell, and trade <br> cryptocurrency with <br> ease and security</p>
               <a href="#" class="hero--link">Start Trading Today </a>
             </div>
 
             <div class="grid--boxes flex">
-              <span class="card-header">2</span>
+              <ion-icon name="swap-horizontal-outline" class="card-header"></ion-icon>
               <p class="card--text">Seamlessly convert <br> your crypto to FIAT <br> anytime, anywhere.</p>
               <a href="#" class="hero--link">Learn More &#8594;</a>
             </div>
 
             <div class="grid--boxes flex">
-              <span class="card-header">3</span>
+              <ion-icon name="layers-outline" class="card-header"></ion-icon>
               <p class="card--text">Swap your Layer 1 tokens for Layer 2 or Layer 3 effortlessly</p>
               <a href="#" class="hero--link">Try it out now</a>
             </div>
@@ -79,12 +88,39 @@
         </div>
         <p class="testimonial-text">Tested and trusted by over <span class="span-text">+250,000 </span>traders</p>
       </footer>
-
-
     </header>
+
+
+    <section class="Featured">
+      <div class="container">
+        <h2 class="secondary-heading featured-text">as featured in</h2>
+        <div class="logos">
+          <img src="img/logos folder/Binance-Logo-png.png" alt="Binance-Logo" class="img-logo">
+          <img src="img/logos folder/Coinbase-Logo.png" alt="Coinbase-Logo" class="img-logo">
+          <img src="img/logos folder/amazon-logo.png" alt="amazon-logo" class="img-logo">
+          <img src="img/logos folder/Snowflake_Inc.png" alt="Snowflake-Logo" class="img-logo">
+          <img src="img/logos folder/Meta_Platforms-Logo.png" alt="Meta-Logo" class="img-logo">
+        </div>
+      </div>
+    </section>
+
+    <section class="about-us">
+      <div class="container grid--2">
+        <div>
+          <img src="img/blog-page.png" alt="A picture ot Eresus" class="img-eresus">
+        </div>
+        <div class="self">
+          <p class="about-text">Uncover the story behind open source trading platform and our commitment to advanced
+            blockchain technology</p>
+
+          <a href="#">Learn More About Us</a>
+
+        </div>
+      </div>
+    </section>
   </main>
+
 </body>
 
-</html>
 
-<!-- home /  Academy / features/ blog /login-->
+</html>

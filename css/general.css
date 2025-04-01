@@ -26,7 +26,7 @@ body {
   font-family: "Merriweather Sans", sans-serif;
   font-weight: 600;
   line-height: 1;
-  color: #e6edf1;
+  color: #eff3fe;
 }
 
 .container {
@@ -44,7 +44,22 @@ body {
 .flex {
   display: flex;
   flex-direction: column;
-  gap: 2.4rem;
+  gap: 3.2rem;
   justify-content: center;
   align-items: center;
+}
+
+.primary-heading {}
+
+.secondary-heading {
+  font-size: 2.4rem;
+  font-weight: 600;
+  letter-spacing: -0.95px;
+  word-spacing: 0.2rem;
+  color: inherit;
+}
+
+.tertiary-heading {
+  font-size: 1.4rem;
+  color: #c9d6fc;
 }

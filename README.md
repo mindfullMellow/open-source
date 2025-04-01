@@ -1,0 +1,29 @@
+# Open Source Trading Platform
+
+![Project Preview](https://cosmic-figolla-7e162a.netlify.app/)
+
+## 🚀 Overview
+
+This is an open-source cryptocurrency trading platform that allows users to **buy, sell, and swap crypto assets seamlessly**.
+
+### 🌟 Features:
+
+- Buy, sell, and trade crypto with ease and security.
+- Convert crypto to fiat anytime, anywhere.
+- Swap Layer 1 tokens for Layer 2 or Layer 3 effortlessly.
+- Trusted by **250,000+ traders** worldwide.
+
+## 🛠️ Tech Stack:
+
+- **Frontend:** HTML, CSS, JavaScript (React/TailwindCSS)
+- **Backend:** Node.js, Express (if applicable)
+- **Deployment:** Netlify
+
+## 🚀 Getting Started
+
+### **Clone the Repo**
+
+```sh
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
+```
